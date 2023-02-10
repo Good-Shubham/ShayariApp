@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="share"
+        android:id="@+id/share"
+        android:icon="@drawable/share_icon"/>
+    
+    <item android:title="Rate"
+        android:id="@+id/rate"
+        android:icon="@drawable/rate_star"
+        />
+
+    <item android:title="More"
+        android:id="@+id/more"
+        android:icon="@drawable/more_icon"/>
+</menu>

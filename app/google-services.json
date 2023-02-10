@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "418032783689",
+    "project_id": "shayariapp-2f524",
+    "storage_bucket": "shayariapp-2f524.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418032783689:android:b845f4c00bd046fb6dca98",
+        "android_client_info": {
+          "package_name": "com.shubham.shayariadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418032783689-ul46hpdc4q92h5aj7nq09o8tgokkrkea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFrbh13sfDTsCJi0NKjFnPyIox8P1OUsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418032783689-ul46hpdc4q92h5aj7nq09o8tgokkrkea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418032783689:android:40d594bb413dd2c36dca98",
+        "android_client_info": {
+          "package_name": "com.shubham.shayariapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418032783689-ul46hpdc4q92h5aj7nq09o8tgokkrkea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFrbh13sfDTsCJi0NKjFnPyIox8P1OUsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418032783689-ul46hpdc4q92h5aj7nq09o8tgokkrkea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

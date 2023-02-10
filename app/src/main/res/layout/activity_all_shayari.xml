@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".All_Shayari_Activity">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="50dp"
+        android:background="@color/red">
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_arrow"
+            android:layout_marginStart="20dp"
+            android:padding="20dp"
+            android:backgroundTint="@color/white">
+        </ImageView>
+        <TextView
+            android:id="@+id/cat_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hindi New Shayari 2023"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/bold"
+            android:textColor="@color/white"
+            android:textSize="20dp"></TextView>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvallShayari"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"/>
+</RelativeLayout>
